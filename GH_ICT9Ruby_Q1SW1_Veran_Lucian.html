@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q1 Seatwork 1</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: courier;
+      color: floralwhite;
+    }
+
+    .half-screen {
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 50px 20px;
+    }
+
+    .top-background {
+      background-image: url("images/background1.jpg");
+      background-attachment: fixed;
+    }
+
+    .bottom-background {
+      background-image: url("images/background3.jpg"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+ 	 background-attachment: fixed;
+ 	 background-color: black;
+    }
+
+    h1 {
+      color: #d94948;
+      text-align: center;
+      font-size: 50px;
+      margin-bottom: 40px;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    h2 {
+      font-size: 40px;
+      color: #1a3f8f;
+      text-align: center;
+      margin-top: 20px;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    p {
+      font-size: 20px;
+      text-align: center;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    .poster {
+      width: 200px;
+      border: 5px solid black; 
+      border-radius: 10px; 
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    .movie-info {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .character-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .character {
+      width: auto;
+      height: 250px;
+      border: 5px solid black; 
+      border-radius: 8px; 
+      object-fit: cover;
+    }
+
+    .duo-character {
+      width: 600px;
+      border: 5px solid black;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      color: floralwhite;
+      font-size: 25px;
+      margin-top: 80px;
+      text-shadow: 1px 1px 2px black;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="half-screen top-background">
+
+    <header>
+      <h1>My 3 Favorite Movies & Shows</h1>
+    </header>
+
+    <hr>
+
+    <!-- Movie 1-->
+    <section>
+      <img class="poster" src="images/breakingbad.jpg" alt="Breaking Bad">
+      <h2><strong>1. Breaking Bad (2008)</strong></h2>
+      <p class="movie-info"><strong>This story of a science teacher who turns to selling drugs is very thrilling and action-packed!</strong></p>
+
+      <div class="character-list">
+        <a href="https://www.youtube.com/watch?v=lNKMBbMejFs" target="_blank">
+          <img class="character" src="images/jesse.jpg" alt="Jesse Pinkman">
+        </a>
+        <a href="https://www.youtube.com/watch?v=pjvtEUmeDSk" target="_blank">
+          <img class="character" src="images/Hank_Schrader.jpg" alt="Hank Schrader">
+        </a>
+        <a href="https://www.youtube.com/watch?v=twk2m2XLeI4" target="_blank">
+          <img class="character" src="images/gus.jpg" alt="Gustavo Fring">
+        </a>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="half-screen bottom-background">
+
+    <!-- Movie 2-->
+    <section>
+      <img class="poster" src="images/whiplash.jpg" alt="Whiplash">
+      <h2><strong>2. Whiplash (2014)</strong></h2>
+      <p class="movie-info"><strong>A young man trying to become a jazz legend suffers at the hands of his mentor. Truly an exciting film!</strong></p>
+
+      <div class="character-list">
+        <a href="https://www.youtube.com/watch?v=yJ5r1TVR5Ao" target="_blank">
+          <img class="character" src="images/neiman.jpeg" alt="Andrew Neiman">
+        </a>
+        <a href="https://www.youtube.com/watch?v=l9VViSscQvA&t=3s" target="_blank">
+          <img class="character" src="images/fletcher.jpg" alt="Terrence Fletcher">
+        </a>
+        <img class="character" src="images/carl.jpg" alt="Carl Tanner">
+      </div>
+    </section>
+
+    <!-- Movie 3-->
+    <section style="margin-top: 200px;">
+      <img class="poster" src="images/lighthouse.jpeg" alt="The Lighthouse">
+      <h2><strong>3. The Lighthouse (2019)</strong></h2>
+      <p class="movie-info"><strong>The filming, setting, and horror aspects of this movie are greatly enjoyable!</strong></p>
+
+      <div class="character-list">
+        <a href="https://www.youtube.com/watch?v=ZrekMzfC7Gw" target="_blank">
+          <img class="duo-character" src="images/characters.jpg" alt="Ephraim Winslow & Thomas Wake">
+        </a>
+      </div>
+    </section>
+    
+    <hr>
+
+    <footer>
+      &copy;<strong> 2025 My Favorite Movies Page | Created by Lucian Veran, 9 Ruby </strong>
+    </footer>
+
+  </div>
+
+</body>
+</html>
